@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>pager example</title>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/class/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="../index.css" />
+    <script src="../index.js"></script>
+</head>
+
+<body>
+<div id="test"></div>
+<script>
+$('#test').pager({
+    total: 999,
+    visibleCount: 10,
+    current: 10,
+    showFirstBtn: false
+}).on('pager:switch', function(event, index){
+    alert('选择跳转至第' + index + '页');
+});
+</script>
+</body>
+</html>

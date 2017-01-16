@@ -1,0 +1,91 @@
+.ui3-pager{
+    margin:5px auto;
+    float: right;
+    font: 12px Tahoma,Helvetica Neue,Hiragino Sans GB,Microsoft Yahei,sans-serif;
+}
+
+.ui3-pager li{
+    float: left;
+    list-style: none;
+}
+
+.ui3-pager-item{
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    background-color: #fff;
+    margin: 0px 3px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+.ui3-pager-item:hover{
+    border-color: #ff5f08;
+}
+
+.ui3-pager-point{
+    border-color: transparent !important;
+    background: transparent !important;
+}
+
+.ui3-pager-item a{
+    display: inline-block;
+    text-align: center;
+    color: #666;
+    height: 28px;
+    width: 28px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.ui3-pager-point a{
+    color: #a3a3a3;
+    letter-spacing: 0px;
+    width: 12px;
+}
+
+.ui3-pager-current{
+    background: #F5692F;
+    border-color: #ff5f08;
+}
+
+.ui3-pager-current a{
+    color: #fff;
+}
+
+.ui3-pager-previous a, .ui3-pager-next a{
+    width: 58px;
+}
+
+.ui3-pager-current a, .ui3-pager-point a{
+    cursor: default;
+}
+
+.ui3-pager-shortcut{
+    height: 20px;
+    line-height: 20px;
+    color: #a3a3a3;
+    margin: 5px;
+}
+
+.ui3-pager-shortcut input{
+    height: 18px;
+    width: 38px;
+    padding: 0px;
+    outline: none;
+    text-align: center;
+    margin: 0px;
+    border: 1px solid #a3a3a3;
+}
+
+.ui3-pager-shortcut-confirm{
+    background: #ff8447;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 5px;
+}
