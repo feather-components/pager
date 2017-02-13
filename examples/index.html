@@ -13,14 +13,15 @@
 <body>
 <div id="test"></div>
 <script>
-$('#test').pager({
-    total: 999,
-    visibleCount: 10,
-    current: 10,
-    showFirstBtn: false
-}).on('pager:switch', function(event, index){
-    alert('选择跳转至第' + index + '页');
-});
+setInterval(function(){
+    $('#test').pager({
+        total: 999,
+        visibleCount: 10,
+        current: Math.floor(Math.random() * 999),
+        showFirstBtn: true
+    })
+}, 3000);
+
 </script>
 </body>
 </html>
