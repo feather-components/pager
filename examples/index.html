@@ -13,15 +13,12 @@
 <body>
 <div id="test"></div>
 <script>
-setInterval(function(){
-    $('#test').pager({
+$('#test').pager({
         total: 999,
         visibleCount: 10,
         current: Math.floor(Math.random() * 999),
         showFirstBtn: true
     })
-}, 3000);
-
 </script>
 </body>
 </html>

@@ -62,30 +62,31 @@
 }
 
 .ui3-pager-shortcut{
-    height: 20px;
-    line-height: 20px;
+    height: 24px;
     color: #a3a3a3;
-    margin: 5px;
+    padding: 3px;
 }
 
 .ui3-pager-shortcut input{
-    height: 18px;
+    height: 23px;
     width: 38px;
     padding: 0px;
     outline: none;
     text-align: center;
     margin: 0px;
+    border-radius: 3px;
     border: 1px solid #a3a3a3;
 }
 
 .ui3-pager-shortcut-confirm{
+    border-radius: 3px;
     background: #ff8447;
     text-decoration: none;
     text-align: center;
     display: inline-block;
     color: #fff;
-    width: 40px;
-    height: 20px;
-    line-height: 20px;
+    width: 50px;
+    height: 24px;
+    line-height: 24px;
     margin-left: 5px;
 }
