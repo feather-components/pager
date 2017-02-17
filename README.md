@@ -4,7 +4,7 @@ Pager分页组件
 ###Options
 
 * dom: 生成页码的容器
-* pageTotal: 页总数
+* total: 页总数
 * visibleCount：显示可见的页码数量
 * url：跳转的地址，组件会自动在该url后面追加&page=页码，默认为空，则需要绑定switch事件
 * showFirstBtn：是否显示首页按钮，默认显示
