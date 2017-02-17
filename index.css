@@ -1,7 +1,7 @@
 .ui3-pager{
     margin:5px auto;
-    float: right;
     font: 12px Tahoma,Helvetica Neue,Hiragino Sans GB,Microsoft Yahei,sans-serif;
+    overflow:auto;
 }
 
 .ui3-pager li{
@@ -20,7 +20,7 @@
 }
 
 .ui3-pager-item:hover{
-    border-color: #ff5f08;
+    border-color:  #5986E1;
 }
 
 .ui3-pager-point{
@@ -45,8 +45,8 @@
 }
 
 .ui3-pager-current{
-    background: #F5692F;
-    border-color: #ff5f08;
+    background: #5986E1;
+    border-color:  #5986E1;
 }
 
 .ui3-pager-current a{
@@ -55,6 +55,20 @@
 
 .ui3-pager-previous a, .ui3-pager-next a{
     width: 58px;
+}
+
+.ui3-pager-previous a:before{
+    content: '<';
+    font-family: consolas;
+    margin-right: 2px;
+    font-size: 16px;
+}
+
+.ui3-pager-next a:after{
+    content: '>';
+    margin-left: 2px;
+    font-family: consolas;
+    font-size: 16px;
 }
 
 .ui3-pager-current a, .ui3-pager-point a{
@@ -80,7 +94,7 @@
 
 .ui3-pager-shortcut-confirm{
     border-radius: 3px;
-    background: #ff8447;
+    background:  #5986E1;
     text-decoration: none;
     text-align: center;
     display: inline-block;

@@ -120,7 +120,7 @@ return Class.$factory('pager', {
         var arr = [];
 
         if(index > 1){
-            arr.push([opt.previous || '&lt;上一页', index - 1, 'ui3-pager-previous ui3-pager-disable']);
+            arr.push([opt.previous || '上一页', index - 1, 'ui3-pager-previous ui3-pager-disable']);
         }
 
         if(opt.showFirstBtn){
@@ -146,7 +146,7 @@ return Class.$factory('pager', {
         }
 
         if(index < total){
-            arr.push([opt.next || '下一页&gt;', index + 1, 'ui3-pager-next']);
+            arr.push([opt.next || '下一页', index + 1, 'ui3-pager-next']);
         }
 
         return arr;
