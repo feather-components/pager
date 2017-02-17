@@ -28,7 +28,7 @@ Pager分页组件
 * 无url参数
 ```js
 $('#pager').pager({
-    pageTotal: 100,
+    total: 100,
     current: 10,
     showFirstBtn: false
 }).on('pager:switch', function(event, index){
@@ -39,7 +39,7 @@ $('#pager').pager({
 ```js
 $('#pager').pager({
     url:'http://example.com/service?[otherparameter=123&]page=',
-    pageTotal: 100,
+    total: 100,
     showLastBtn: false
 });
 ```
