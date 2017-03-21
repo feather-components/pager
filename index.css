@@ -53,6 +53,10 @@
     color: #fff;
 }
 
+.ui3-pager-item-large a{
+    padding: 0px 4px;
+}
+
 .ui3-pager-previous a, .ui3-pager-next a{
     width: 58px;
 }

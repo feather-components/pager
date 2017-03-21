@@ -86,6 +86,7 @@ return Class.$factory('pager', {
                 $item = $('<li class="ui3-pager-current"><a href="javascript:">' + _1 + '</a></li>').addClass(opt.currentClassName);
             }
 
+            _0 > 999 && $item.addClass('ui3-pager-item-large');
             self.container.append($item.addClass('ui3-pager-item'));
         });
 
