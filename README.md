@@ -1,7 +1,7 @@
 Pager分页组件
 ====================== 
  
-###Options
+### Options
 
 * dom: 生成页码的容器
 * total: 页总数
@@ -14,16 +14,16 @@ Pager分页组件
 * className：组件对象的类名
 * showShortCut：显示快捷方式
 
-###Events:
+### Events:
 
 * switch(event, pageIndex)：切换页码时触发
 
-###Api:
+### Api:
 
 * to(pageIndex)：跳转至第几页，该方法会触发switch事件
 * destroy: 摧毁对象
 
-###Example
+### Example
 
 * 无url参数
 ```js
